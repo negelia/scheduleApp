@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="#F9F9F9">
+
+    <TableRow>
+        <TextView
+            android:background="#4455F0"
+            android:id="@+id/day"
+            android:layout_width="50dp"
+            android:padding="10dip"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textAlignment="center"
+            android:text="ДЕНЬ"
+            android:textColor="@color/white"
+            android:layout_span="3"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:background="#F4EDEA"
+            android:textColor="#F36747"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="Пара"
+            android:padding="6dip"
+            android:textStyle="bold"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:text="Предмет"
+            android:background="#F4EDEA"
+            android:textColor="#F36747"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:padding="6dip"
+            android:textStyle="bold"
+            android:textSize="13dp"/>
+
+        <TextView
+            android:text="Преподаватель"
+            android:background="#F4EDEA"
+            android:textColor="#F36747"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:padding="6dip"
+            android:textStyle="bold"
+            android:textSize="13dp"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/lesson1"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="ПАРА"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/subject1"
+            android:text="ПРЕДМЕТ"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/teacher1"
+            android:text="ПРЕПОД"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/lesson2"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="ПАРА"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/subject2"
+            android:text="ПРЕДМЕТ"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/teacher2"
+            android:text="ПРЕПОД"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/lesson3"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="ПАРА"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/subject3"
+            android:text="ПРЕДМЕТ"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/teacher3"
+            android:text="ПРЕПОД"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/lesson4"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="ПАРА"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/subject4"
+            android:text="ПРЕДМЕТ"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/teacher4"
+            android:text="ПРЕПОД"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/lesson5"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:text="ПАРА"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/subject5"
+            android:text="ПРЕДМЕТ"
+            android:layout_height="wrap_content"
+            android:layout_width="180dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+
+        <TextView
+            android:id="@+id/teacher5"
+            android:text="ПРЕПОД"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:padding="3dip"
+            android:textColor="#1E1D1C"/>
+    </TableRow>
+
+
+</TableLayout>
